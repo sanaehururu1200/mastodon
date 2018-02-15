@@ -1,5 +1,5 @@
 @import 'mastodon/mixins';
-@import 'mastodon/variables';
+@import 'custom/variables';
 @import 'fonts/roboto';
 @import 'fonts/roboto-mono';
 @import 'fonts/montserrat';
@@ -22,3 +22,6 @@
 @import 'mastodon/tables';
 @import 'mastodon/admin';
 @import 'mastodon/rtl';
+
+$wallpaper: "custom/background.jpg";
+@import 'wallpaper';
