@@ -9,6 +9,7 @@ $gold-star: #ca8f04;        // Dark Goldenrod
 $haruhi-red: #e2041b;
 $haruhi-disable-yellow: #ffedab;
 $haruhi-yellow: #fdd35c;
+$haruhi-disable-red: #FFCCCC;
 
 // Values from the classic Mastodon UI
 $classic-base-color: #990000;         // Midnight Express
@@ -27,7 +28,7 @@ $error-value-color: $error-red !default;
 
 // Tell UI to use selected colors
 $ui-base-color: $classic-base-color !default;                  // Darkest
-$ui-base-lighter-color: lighten($ui-base-color, 3%) !default; // Lighter darkest
+$ui-base-lighter-color: $haruhi-disable-red !default; // Lighter darkest
 $ui-primary-color: $classic-primary-color !default;            // Lighter
 $ui-secondary-color: $classic-secondary-color !default;        // Lightest
 $ui-highlight-color: $classic-highlight-color !default;        // Vibrant
